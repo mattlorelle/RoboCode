@@ -3,7 +3,7 @@ My implementation of a basic RoboCode bot written in C# utilizing a 3-state fini
 
 My robot utilized a simple Finite State Machine AI architecture in which my robot alternated between three unique states depending on a couple different inputs. The three unique states of my robot are Roam, Flee, and Attack.
 
-# States
+# Finite States
 
 In the Roam state, my robot will head in the direction that it is spawned at towards a wall
 and upon hitting that wall will turn around off that wall at a random angle between 0 and 90
