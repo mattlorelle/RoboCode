@@ -1,7 +1,9 @@
-# RoboCode
+# RoboCode Implementation
 My implementation of a basic RoboCode bot written in C# utilizing a 3-state finite state machine architecture. 
 
 My robot utilized a simple Finite State Machine AI architecture in which my robot alternated between three unique states depending on a couple different inputs. The three unique states of my robot are Roam, Flee, and Attack.
+
+# States
 
 In the Roam state, my robot will head in the direction that it is spawned at towards a wall
 and upon hitting that wall will turn around off that wall at a random angle between 0 and 90
@@ -27,6 +29,8 @@ it harder for you opponent to hit you. This same principal is applied to my robo
 surprisingly well at not getting hit by enemy bullets. My robots one downfall, that I find, is that 
 although it makes the robot harder to hit, it is also harder for my robot to hit its shots against the
 enemy due to that movement.
+
+# Summary
 
 All of these aspects provide a robust and mobile robot that can face off against a large
 number of bots with pretty good success. Its unpredictable movement and fleeing tactics are
